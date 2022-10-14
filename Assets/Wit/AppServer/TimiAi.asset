@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5a46bda3295124c99b0e6537ac7252, type: 3}
+  m_Name: TimiAi
+  m_EditorClassIdentifier: 
+  _clientAccessToken: USRQHELSB7ENLCAWLC65DSUUIOR6DX7E
+  _appInfo:
+    name: timivn
+    id: 1162861107637627
+    lang: vi
+    isPrivate: 0
+    createdAt: 2022-10-05T21:06:25-0700
+    trainingStatus: 3
+    lastTrainDuration: 0
+    lastTrainedAt: 1969-12-31T16:00:00-0800
+    nextTrainAt: 2022-10-06T00:36:43-0700
+    intents:
+    - id: 1089091455328461
+      name: active_micro
+      entities:
+      - name: call_timi:call_timi
+        id: 826502818536308
+    entities:
+    - name: Color
+      id: 3281252605455424
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: Color
+        id: 1038986900203059
+      keywords:
+      - keyword: Black
+        synonyms:
+        - black
+      - keyword: Blue
+        synonyms:
+        - blue
+      - keyword: Brown
+        synonyms:
+        - brown
+      - keyword: Gray
+        synonyms:
+        - gray
+      - keyword: Green
+        synonyms:
+        - green
+      - keyword: Orange
+        synonyms:
+        - orange
+      - keyword: Pink
+        synonyms:
+        - pink
+      - keyword: Purple
+        synonyms:
+        - purple
+      - keyword: Red
+        synonyms:
+        - red
+      - keyword: White
+        synonyms:
+        - white
+      - keyword: Yellow
+        synonyms:
+        - yellow
+    - name: Shape
+      id: 1245686959547398
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: Shape
+        id: 1109940236291869
+      keywords:
+      - keyword: Capsule
+        synonyms:
+        - capsule
+      - keyword: Cube
+        synonyms:
+        - cube
+      - keyword: Cylinder
+        synonyms:
+        - cylinder
+      - keyword: Sphere
+        synonyms:
+        - sphere
+    - name: call_timi
+      id: 764958531335836
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: call_timi
+        id: 826502818536308
+      keywords:
+      - keyword: "N\xE0y Timi"
+        synonyms:
+        - "n\xE0y timi"
+    traits: []
+    voices:
+    - name: Charlie
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - fast
+      - projected
+    - name: Rebecca
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+  _configurationId: edde788c-b3c7-4c54-b7e9-13c547b8d073
+  timeoutMS: 10000
+  endpointConfiguration:
+    uriScheme: 
+    authority: 
+    port: 0
+    witApiVersion: 
+    speech: 
+    message: 
+    dictation: 
+  isDemoOnly: 0
+  useConduit: 1
+  _manifestLocalPath: ConduitManifest-e25be1ca-d3bc-49f9-9171-b57425e887f7.json

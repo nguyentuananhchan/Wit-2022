@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5a46bda3295124c99b0e6537ac7252, type: 3}
+  m_Name: demo1
+  m_EditorClassIdentifier: 
+  _clientAccessToken: WXA27HWPKEGOGLO3XUEQBOQKUVJ363GC
+  _appInfo:
+    name: shapes_demo_1
+    id: 834513444132311
+    lang: en
+    isPrivate: 0
+    createdAt: 2021-06-02T20:37:19-0700
+    trainingStatus: 3
+    lastTrainDuration: 0
+    lastTrainedAt: 1969-12-31T16:00:00-0800
+    nextTrainAt: 2022-10-06T00:12:06-0700
+    intents:
+    - id: 5570776179708263
+      name: change_color
+      entities:
+      - name: color:color
+        id: 1147677679169628
+      - name: shape:shape
+        id: 776393556993883
+    entities:
+    - name: color
+      id: 763329261429824
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: color
+        id: 1147677679169628
+      keywords:
+      - keyword: blue
+        synonyms:
+        - blue
+      - keyword: green
+        synonyms:
+        - green
+      - keyword: red
+        synonyms:
+        - red
+      - keyword: yellow
+        synonyms:
+        - yellow
+    - name: shape
+      id: 670740398013746
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: shape
+        id: 776393556993883
+      keywords:
+      - keyword: Capsule
+        synonyms:
+        - capsule
+      - keyword: Sphere
+        synonyms:
+        - sphere
+      - keyword: cube
+        synonyms:
+        - cube
+    traits:
+    - name: wit$thanks
+      id: 5900cc2d-867c-4bf0-beb6-ef6e6bf45ca5
+      values:
+      - id: e5cce196-9948-420c-a9fb-9c2fd201adaf
+        value: true
+    voices:
+    - name: Charlie
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - fast
+      - projected
+    - name: Rebecca
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+  _configurationId: 3e6afb70-7b0c-4038-8efb-fbeb21d2a33f
+  timeoutMS: 10000
+  endpointConfiguration:
+    uriScheme: 
+    authority: 
+    port: 0
+    witApiVersion: 
+    speech: 
+    message: 
+    dictation: 
+  isDemoOnly: 0
+  useConduit: 1
+  _manifestLocalPath: ConduitManifest-b69dbd5d-6b2c-4af5-9c63-7c957667e50d.json

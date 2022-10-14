@@ -1,0 +1,28 @@
+{
+  "name": "com.facebook.witai",
+  "displayName": "Meta - Wit.ai",
+  "version": "0.0.49",
+  "samples": [
+    {
+      "displayName": "Response Debugger",
+      "description": "A scene with simple text UI to show Wit responses.",
+      "path": "Samples/ResponseDebugger"
+    },
+    {
+      "displayName": "Shapes",
+      "description": "The sample code that goes with the Shapes tutorial.",
+      "path": "Samples/Shapes"
+    },
+    {
+      "displayName": "TTS Speaker",
+      "description": "TTS sample scene with two TTSSpeakers that use preset voices to speak.",
+      "path": "Features/TTS/Samples"
+    }
+  ],
+  "description": "wit-unity is the Unity SDK for Wit.ai. It provides convenience tools for activating Wit and processing the responses that are returned.",
+  "unity": "2019.4",
+  "author": {
+    "name": "Meta - Wit.ai",
+    "url": "https://wit.ai"
+  }
+}
